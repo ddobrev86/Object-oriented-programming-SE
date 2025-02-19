@@ -4,7 +4,7 @@
 Да се създаде структура **ComplexNumber**, която представя комплексно число.
 
 Да се имплементират следните функции:
-- ComplexNumber init(int re, int im)
+- ComplexNumber init(double re, double im)
 - void print(const ComplexNumber& complex)
 - ComplexNumber conjugate(const ComplexNumber& complex)
 - ComplexNumber add(const ComplexNumber& lhs, const ComplexNumber& rhs)
