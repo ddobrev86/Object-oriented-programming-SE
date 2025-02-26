@@ -72,7 +72,7 @@ void savePetstore(const char* filepath, const Petstore& petstore)
 		return;
 	}
 
-	std::ofstream ofs(filepath, std::ios::out);
+	std::ofstream ofs(filepath);
 
 	if (!ofs.is_open())
 	{
@@ -125,7 +125,7 @@ Petstore readPetstore(const char* filepath)
 		return {};
 	}
 
-	std::ifstream ifs(filepath, std::ios::in);
+	std::ifstream ifs(filepath);
 
 	if (!ifs.is_open())
 	{
