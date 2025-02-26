@@ -11,7 +11,7 @@
 - void makeVector(int x, int y, int x)
 - void addToVectorSpace(VectorSpace& vectorSpace, const Vector& vector)
 - void serializeVector(std::ofstream& ofs)
-- Vector deserializeVector(stdLLifstream& ifs)
+- Vector deserializeVector(std::ifstream& ifs)
 - void serializeVectorSpace(const char* fileName, const VectorSpace& vectorSpace)
 - VectorSpace deserializeVectorSpace(const char* fileName)
 
