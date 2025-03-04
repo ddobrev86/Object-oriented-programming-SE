@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include <stdlib.h>
-#pragma warning (disable: 4996)
+#include <cstring>
+#pragma warning(disable:4996)
 
 namespace constants
 {
